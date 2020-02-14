@@ -75,9 +75,15 @@ font-size: 20px;
   width: 300px;
   background: darkgray;
   border-radius: 50%;
-  padding: 20px;
+  padding: 0px 0px 20px 0px;
   margin: 20px;
   display: inline-block;
+}
+
+.tape {
+  background: yellow;
+  width: 100px;
+  height: 35px;
 }
 
 @keyframes App-logo-spin {
