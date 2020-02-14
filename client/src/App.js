@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios'
 import Players from './Components/Players';
+import {Navigation} from './Components/Navigation'
 import {useLocalStorage} from './Hooks/useLocalStorage'
 
 class App extends Component {
@@ -28,7 +29,7 @@ axios
   render(){
     return (
       <div className="App">
-
+<Navigation />
         {this.state.players.map(player => <Players key={player.id} player={player} />)}
       </div>
     );
