@@ -27,7 +27,7 @@ axios
   render(){
     return (
       <div className="App">
-        {/* <Players /> */}
+
         {this.state.players.map(player => <Players key={player.id} player={player} />)}
       </div>
     );
