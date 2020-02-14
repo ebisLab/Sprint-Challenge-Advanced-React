@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -22,6 +23,18 @@
 .App-link {
   color: #61dafb;
 }
+
+.dark-mode {
+  background-image:
+  radial-gradient(circle at 100% 150%, #53dd6c 24%, #23ce6b 25%, #23ce6b 28%, #53dd6c 29%, #53dd6c 36%, #23ce6b 36%, #23ce6b 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, #53dd6c 24%, #23ce6b 25%, #23ce6b 28%, #53dd6c 29%, #53dd6c 36%, #23ce6b 36%, #23ce6b 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, #23ce6b 10%, #53dd6c 11%, #53dd6c 23%, #23ce6b 24%, #23ce6b 30%, #53dd6c 31%, #53dd6c 43%, #23ce6b 44%, #23ce6b 50%, #53dd6c 51%, #53dd6c 63%, #23ce6b 64%, #23ce6b 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, #23ce6b 5%, #53dd6c 6%, #53dd6c 15%, #23ce6b 16%, #23ce6b 20%, #53dd6c 21%, #53dd6c 30%, #23ce6b 31%, #23ce6b 35%, #53dd6c 36%, #53dd6c 45%, #23ce6b 46%, #23ce6b 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, #23ce6b 5%, #53dd6c 6%, #53dd6c 15%, #23ce6b 16%, #23ce6b 20%, #53dd6c 21%, #53dd6c 30%, #23ce6b 31%, #23ce6b 35%, #53dd6c 36%, #53dd6c 45%, #23ce6b 46%, #23ce6b 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+
+}
+
 
 @keyframes App-logo-spin {
   from {
