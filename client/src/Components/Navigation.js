@@ -10,7 +10,7 @@ setDarkMode(!darkMode)
     }
     return (
         <nav className="navbar">
-<h1 className="nav-title">Player's information</h1>
+<h1 className="nav-title">Player's information of Valentine's Day</h1>
 <button onClick={toggle} className="btn">Change</button>
         </nav>
     )
