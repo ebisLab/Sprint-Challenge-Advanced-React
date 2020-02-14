@@ -60,6 +60,9 @@ font-size: 20px;
 
 }
 
+.dark-mode .heart{
+  display: none;
+}
 .dark-mode .players {
   width: 300px;
   border: 1px solid black;
